@@ -1,0 +1,138 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = PRIME_MINISTER_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_president
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = PRIME_MINISTER_TITLE
+	}
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_KING_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_vice_president
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_president
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = ENG_Elizabeth_II
+	}
+	text = {
+		trigger = {
+			original_tag = USA
+		}
+		localization_key = USA_Howard_Baker
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = GER_Kurt_Georg_Kiesinger
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+		trigger = {
+			tag = USA
+		}
+		localization_key = "GFX_USA_Howard_Baker"
+	}
+    text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "GFX_Elizabeth_II"
+	}
+    text = {
+        trigger = {
+			original_tag = GER
+        }
+        localization_key = "GFX_Kurt_Georg_Kiesinger"
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "ENG_Elizabeth_II_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = USA
+        }
+        localization_key = "USA_Howard_Baker_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = GER
+        }
+        localization_key = "GER_Kurt_Georg_Kiesinger_DESC"
+	}
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    text = {
+        trigger = {
+			original_tag = ENG
+        }
+        localization_key = "Margaret_Thatcher_DESC"
+	}
+    text = {
+        trigger = {
+			original_tag = USA
+        }
+        localization_key = "George_Romney_DESC"
+	}
+}

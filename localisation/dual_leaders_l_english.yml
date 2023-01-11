@@ -1,0 +1,24 @@
+﻿l_english:
+    # GUI Localisation, do not edit!
+ first_leader_title:0 "[ROOT.GetFirstTitle]"
+ second_leader_title:0 "[ROOT.GetSecondTitle]"
+ dual_leader_name:0 "[ROOT.GetDualLeaderName]"
+ DEFAULT_TITLE:0 "Vacant"
+ DEFAULT_FIRST_TITLE:0 "Leader"
+ DESCRIPTION_TEST:0 "His Majesty"
+ second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
+ first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetNameDef]의 [From.GetFirstTitle]"
+ second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetNameDef]의 [From.GetSecondTitle]"
+ dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
+ first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
+    # Nation Specific Localisation
+ #실질적 지도자
+ PRIME_MINISTER_TITLE:0 "총리"
+ USA_president:0 "대통령"
+ #명목상 국가원수, 권한대행
+ USA_vice_president:0 "부통령"
+ ENG_KING_TITLE:0 "국왕"
+ #이름
+ ENG_Elizabeth_II:0 "엘리자베스 2세"
+ ENG_Elizabeth_II_DESC:0 "'하느님의 은총으로 대브리튼, 아일랜드와 해외 영국 자치령의 여왕, 신앙의 수호자, 에든버러 공작부인, 메리오네스 백작부인, 그리니치 남작부인, 랭커스터 공작, 맨 섬의 영주, 노르망디 공작, 가장 영예로운 가터 훈장의 군주, 가장 영예로운 바스 훈장의 군주, 최고이며 가장 고귀한 시슬 훈장의 군주, 가장 저명한 성 패트릭 훈장의 군주, 가장 기품있는 성 미카엘 훈장과 성 조지 훈장의 군주, 가장 훌륭한 대영제국 훈장의 군주, 무공 훈장의 군주, 제국 공로 훈장의 군주, 최고위 인도성 훈장의 군주, 가장 저명한 인도 제국 훈장의 군주, 영국령 인도 훈장의 군주, 인도 공로 훈장의 군주, 버마 훈장의 군주, 빅토리아&알버트 왕실 훈장의 군주, 에드워드 8세 왕가 훈장의 군주, 공로 훈장의 군주, 명예 훈위 훈장의 군주, 왕립 빅토리아 훈장의 군주, 가장 유서깊은 예루살렘의 성 조지 병원 훈장의 군주이신 엘리자베스 2세 폐하"
+ USA_Howard_Baker:0 "하워드 베이커"
