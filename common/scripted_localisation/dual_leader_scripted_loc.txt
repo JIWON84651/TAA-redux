@@ -45,6 +45,9 @@ defined_text = {
 		}
 		localization_key = GER_president
 	}
+	text = {
+		localization_key = DEFAULT_SECOND_TITLE
+	}
 }
 
 defined_text = {
@@ -92,8 +95,14 @@ defined_text = {
         }
         localization_key = "GFX_Kurt_Georg_Kiesinger"
 	}
+    text = {
+        trigger = { 
+			original_tag = SOV
+        }
+        localization_key = "GFX_RUS_vacant"
+	}
 	text = {
-		localization_key = "GFX_portrait_bg_blank"
+		localization_key = "GFX_vacant"
 	}
 }
 

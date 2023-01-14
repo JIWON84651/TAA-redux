@@ -58,4 +58,14 @@ spriteTypes = {
    	 name = "GFX_USA_Howard_Baker"
    	 texturefile = "gfx/dual_leaders/USA/USA_Howard_Baker.png"
 	}
+
+	spriteType = {
+   	 name = "GFX_RUS_vacant"
+   	 texturefile = "gfx/dual_leaders/RUS/GFX_RUS_vacant.png"
+	}
+
+	spriteType = {
+   	 name = "GFX_vacant"
+   	 texturefile = "gfx/dual_leaders/vacant.png"
+	}
 }
