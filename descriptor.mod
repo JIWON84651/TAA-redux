@@ -6,4 +6,4 @@ dependencies={
 	"The-Atomic-Age"
 }
 name="TAA-redux"
-supported_version="1.12.7"
+supported_version="1.12.11"

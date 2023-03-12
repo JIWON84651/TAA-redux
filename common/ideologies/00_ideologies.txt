@@ -1,5 +1,5 @@
 ideologies = {
-	Communism = {
+	communism = {
 		types = {
 			communism_sub = {
 			}
@@ -26,6 +26,9 @@ ideologies = {
 			}
 			
 			maoism = {
+			}
+			
+			national_bolshevism = {
 			}
 		}
 
@@ -109,6 +112,12 @@ ideologies = {
 		types = {
 			social_democracy_sub = {
 			}
+
+			democratic_socialism = {
+			}
+
+			liberal_socialism = {
+			}
 		}
 
 		color = { 255 100 100 }
@@ -150,7 +159,7 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
-	liberal_democracy = {
+	democratic = {
 
 		types = {
 			liberal_sub = {
@@ -241,13 +250,28 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
-	authoritarianism = {
+	neutrality = {
 
 		types = {
 			neutrality_sub = {
 			}
 			
 			constitutional_monarchy = {
+			}
+			
+			oligarchy = {
+			}
+			
+			theocracy = {
+			}
+			
+			aristocracy = {
+			}
+			
+			plutocracy = {
+			}
+			
+			controlled_democracy = {
 			}
 		}
 
@@ -290,6 +314,18 @@ ideologies = {
 		types = {
 			absolutism_sub = {
 			}
+
+			military_dictatorship = {
+			}
+
+			dictatorship = {
+			}
+
+			one_party_dictatorships = {
+			}
+
+			personalist_dictatorships = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -327,13 +363,79 @@ ideologies = {
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
 	}
-	extremism = {
+	fascism = {
 
 		types = {
-			extremism_sub = {
+			reformed_national_socialism = {
 			}
-			
-			Eurasianism = {
+
+			fascism_sub = {
+			}
+
+			francoism = {
+			}
+
+			clerico_fascism = {
+			}
+
+			national_socialism = {
+			}
+
+			tropical_fascism = {
+			}
+
+			Technocracy = {
+			}
+
+			fascist_mysticism = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 20 20 20 }
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_cost_factor = 1
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		ai_ideology_wanted_units_factor = 1.65
+	}
+	nazism = {
+
+		types = {
+			partisan_national_socialism = {
+			}
+
+			conservative_national_socialism = {
+			}
+
+			national_socialism = {
+			}
+
+			reichskommissariat = {
+			}
+
+			ns_military = {
 			}
 		}
 
